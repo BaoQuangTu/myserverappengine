@@ -60,6 +60,14 @@
 			<version>1.9.27</version>
 		</dependency>
 
+		<!-- core -->
+		<dependency>
+			<groupId>com.baoquangtu.myappdemo</groupId>
+			<artifactId>MyAppCore</artifactId>
+			<version>1.1-SNAPSHOT</version>
+		</dependency>
+		
+		
 		<dependency>
 			<groupId>com.google.appengine</groupId>
 			<artifactId>appengine-api-stubs</artifactId>
@@ -88,7 +96,7 @@
 			<artifactId>objectify</artifactId>
 			<version>5.1.16</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
@@ -99,49 +107,49 @@
 			<artifactId>jsr107cache</artifactId>
 			<version>1.1</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>com.google.appengine</groupId>
 			<artifactId>appengine-jsr107cache</artifactId>
 			<version>1.9.25</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>com.google.appengine</groupId>
 			<artifactId>appengine-api-1.0-sdk</artifactId>
 			<version>1.9.27</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>com.google.appengine</groupId>
 			<artifactId>appengine-api-stubs</artifactId>
 			<version>1.9.25</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>com.google.appengine</groupId>
 			<artifactId>appengine-api-labs</artifactId>
 			<version>1.9.25</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>net.minidev</groupId>
 			<artifactId>json-smart</artifactId>
 			<version>2.2</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>com.nimbusds</groupId>
 			<artifactId>nimbus-jose-jwt</artifactId>
 			<version>3.7</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>com.googlecode.libphonenumber</groupId>
 			<artifactId>libphonenumber</artifactId>
@@ -209,11 +217,8 @@
 			<artifactId>javapns-jdk16</artifactId>
 			<version>2.3.1</version>
 		</dependency>
-<!-- 		<dependency>
-			<groupId>com.google.apis</groupId>
-			<artifactId>google-api-services-bigquery</artifactId>
-			<version>v2-rev279-1.21.0</version>
-		</dependency> -->
+		<!-- <dependency> <groupId>com.google.apis</groupId> <artifactId>google-api-services-bigquery</artifactId> 
+			<version>v2-rev279-1.21.0</version> </dependency> -->
 		<dependency>
 			<groupId>net.sf.uadetector</groupId>
 			<artifactId>uadetector-resources</artifactId>

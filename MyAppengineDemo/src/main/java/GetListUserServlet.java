@@ -32,7 +32,7 @@ public class GetListUserServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		try {
-
+			
 			JSONObject jsonObject = CommonMethod.JSONObjectInputStream(request.getInputStream());
 			
 			int age = 22;

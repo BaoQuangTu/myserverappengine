@@ -19,6 +19,7 @@ public class CommonMethod {
 				return null;
 			}
 		}
+		
 		return json;
 	}
 }

@@ -3,3 +3,4 @@ entities/Listener.class
 GetListUserServlet.class
 HelloServlet.class
 CommonMethod.class
+entities/Department.class

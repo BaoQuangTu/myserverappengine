@@ -19,6 +19,7 @@ public class Listener implements ServletContextListener {
 	public void contextInitialized(ServletContextEvent arg0) {
 		// TODO Auto-generated method stub
 		ObjectifyService.register(Student.class);
+		ObjectifyService.register(Department.class);
 	}
 
 }
