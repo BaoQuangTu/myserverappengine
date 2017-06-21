@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.Charset;
+import com.baoquangtu.myappdemo.CoreDemo;
 
 import com.google.appengine.labs.repackaged.org.json.JSONException;
 import com.google.appengine.labs.repackaged.org.json.JSONObject;
@@ -20,6 +21,7 @@ public class CommonMethod {
 			}
 		}
 		
+	
 		return json;
 	}
 }
